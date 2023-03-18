@@ -1,3 +1,21 @@
+// THEME COLORS 
+$primary: #1c2127;
+$secondary: #0b385f;
+$success: #3373b0;
+$info: #bed4e9;
+$warning: #e7f1fb;
+$danger: blue;
+
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+html {
+    background-color: $warning;
+}
+
+body {
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: white;
+}

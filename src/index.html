@@ -3,25 +3,287 @@
 
 <head>
   <meta charset="utf-8">
-  <title>WEB 2890 - Project 2</title>
+  <title>scrubbs laundry</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: Project 2 ...">
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
-
 <body>
+
+  <!--NAV-->
+  <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">scrubbs <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-basket2" viewBox="0 0 16 16">
+        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+      </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list text-light" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="indexhtml">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">Pick-Up & Delivery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">Self Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">Wash&Fold</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">Commercial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="">Locations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--NAV-->
+
   <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+  <h1 class="display-4 text-center text-primary m-3">Scrubbs laundry</h1>
+  <p class="m-5">Need a laundromat near Seattle? We have four serving North Seattle, Shoreline, Lake Forrest Park, Burien, Normandy Park, Boulevard Park and West Seattle. Each location is cleaned at least twice per day and has safe, lit parking.</p>
+
+  <div class="container-fluid jumbo">
+    <div class=" p-3 bg-image rounded-2 img-fluid mt-2" style="background-image: url('images/2dollar.jpg');">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm mt-4">
+              <h3 class="mb-3 text-primary display-6 rounded-2"><strong>$2.00 Wednesday</strong></h3><br /><p>It is only $2.00 a load for our small machines on Wednesdays! This offer is good at Boulevard Park, Burien, and W. Seatlle.</p>
+            </div>
+            <div class="col-sm">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1"><h3>Find a location near you:</h3></label>
+                  <input type="zip" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Zip Code">
+                </div>
+                <button type="submit" class="btn btn-primary mt-2 btn btn-outline-light">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+   <!--WHAT SAY-->
+        <section>
+          <h1 class="display-4 text-center text-primary mt-5 mb-3">What Our Customers Are Saying:</h1>
+        <div id="carouselExample" class="carousel slide mx-3">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/washer.jpg" class="d-block w-100 img-responsive" alt="rev1">
+              <p class="carousel-caption text-light"><strong>
+              <q>I travel a lot and stopped by oak tree laundromat recently and found new owners and the great job they're doing cleaning up the place and they have Attentive staff. I forgot my power-bank charger for my iPhone and their honest staff, a gracious young man, put it away for me with my name on it. I was SO afraid it would be missing when I cam back! (Sigh of relif) Thank you Oak Tree for doing a stellar job and constantly seeing to improve your business!</q>
+              <br />- Mar</strong></p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/washer.jpg" class="d-block w-100" alt="rev2">
+              <p class="carousel-caption text-light"><strong>
+                <q>Only a few times I used their services when my washing machine did not work. A man who works there guided me well since I always forget how I operate their machines. I love huge washing machine.</q>
+                  <br />- Junko</strong></p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/washer.jpg" class="d-block w-100" alt="rev3">
+              <p class="carousel-caption text-light"><strong>
+                <q>Amazingly great place to do your laundry. The owner is super nice and helpful. Definitely recommend whenever you need a place to wash and dry your dirty clothes.</q>
+              <br />- Dmitry</strong></p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/washer.jpg" class="d-block w-100" alt="rev4">
+              <p class="carousel-caption text-light"><strong>
+                <q>It's a simple, quiet laundromat. There is plenty of parking, simple to use machines, and the attendant is friendly. He saw me struggle putting a bill into the laundry machine and used a bucket of quarters to trade with me instead!</q>
+              <br />- Eddie</strong></p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/washer.jpg" class="d-block w-100" alt="rev5">
+              <p class="carousel-caption text-light"><strong>
+                <q>Last week Mar 2018 I stopped cuz I really needed to (no choice) and WAS PLEASANTLY surprised, new owner ship, great guy cleaning, attentive to everyone's needs, so helpful, the place had a cute makeover, it is clean, machines are well kept, counters are clean... small seating area to wait for Ur clothes... it was great and now my new GO TO laundromat.</q>
+              <br />- Laura</strong></p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+        <!--WHAT SAY-->
+
+     <!--SERVICES-->
+  <div class="accordion accordion-flush m-5" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Self Service Laundry
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">If you need a self-service laundry option, we offer a wide selection of machines at our lavanderia to avoid waiting. We have large  commercial machines for your heavy loads along with soap and laundry bags available for purchase.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Wash and Fold
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">If you want us to do your laundry just leave your clothes with us and we will wash and dry your laundry for you. This laundry service is available at our Seattle and Burien laundromats.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Pickup and Delivery
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">If you are looking for the ultimate time saver then try our pickup and delivery service. Schedule a pickup and we will come to your home to pick up your laundry. We will gently wash, dry, fold, and package your laundry using eco-friendly detergents and then return it to you, ready to wear!</div>
+    </div>
+  </div>
+</div>
+  <!--SERVICES-->
+
+
+ <!--HAS YOU COVERED-->
+      <h1 class="display-4 text-center text-primary mt-5 mb-2">Our laundromat has you covered</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center p-3">
+          <div class="card mt-5 align-items-stretch" style="width: 18rem;">
+            <img src="images/wash&fold.jpg" class="card-img-top" alt="Toyota 4-Runner">
+            <div class="card-body">
+              <p class="card-title"><strong>Wash & Fold</strong></p>
+              <p>Drop off your laundry at Oak Tree Village, Burein, or W. Seattle and we will take care of it for you.</p>
+              <button>learn more</button>                    
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center p-3">
+          <div class="card mt-5 align-items-stretch" style="width: 18rem;">
+            <img src="images/selfservice.jpg" class="card-img-top" alt="self">
+            <div class="card-body">
+              <p class="card-title"><strong>Self Service Laundromat</strong></p>
+              <p>Come into any of our four locations to do your laundry in a clean and comfortable environment.</p>
+              <button>learn more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex justify-content-center p-3">
+          <div class="card mt-5 align-items-stretch" style="width: 18rem;">
+            <img src="images/pickupdeliver.jpg" class="card-img-top" alt="pick">
+            <div class="card-body">
+              <p class="card-title"><strong>Pickup & Delivery</strong></p>
+              <p>The ultimate in convenience! We will come to you to pick up your dirty laundry.</p>
+              <button>learn more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 d-flex justify-content-center p-3">
+          <div class="card mt-5 align-items-stretch" style="width: 18rem;">
+            <img src="images/commercial.jpg" class="card-img-top" alt="commercial">
+            <div class="card-body">
+              <p class="card-title"><strong>Commercial Laundry</strong></p>
+              <p>If you own a business that creates dirty laundry of any kind, let us wash and dry your items for you.</p>
+              <button>learn more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 d-flex justify-content-center p-3">
+          <div class="card mt-5 align-items-stretch" style="width: 18rem;">
+            <img src="images/locations.jpg" class="card-img-top" alt="location">
+            <div class="card-body">
+              <p class="card-title"><strong>Locations</strong></p>
+              <p>We have four locations to choose from so you can do your laundry close to home.</p>
+              <button>learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <h3 class="text-center mt-5"><strong>25 Years of Experience</strong></h3>
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm mb-5 mt-3">
+              <p class="mb-3 text-primary">Between the two of us, we have 25 years of laundry experience, four laundromats, and one goal - to make laundry day go smoothly for each and every one of our customers. We both worked full time jobs, one in health care industry and one in the medical device arena.</p>
+            </div>
+            <div class="col-sm mb-5 mt-3">
+              <p>Then we decided to make the laundry business our full time career. And we certainly are glad that we did. We have created a wonderful, family friendly environment at all of our locations and we hope to only get better and better!</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+   <!--HAS YOU COVERED-->
+
+   <!--FOOTER-->
+  <footer class="bg-secondary text-light mt-3">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <p><strong>Scrubbs Laundry</strong></p>
+            <p><span>Copyright&copy;2023. All Rights Reserved.
+          </span></p>
+          <p>Powered By: Curbside Laundries</p>
+        </div>
+
+        <div class="col">
+        <p><strong>Our Facebook</strong></p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg><a href="#"></a> Facebook
+        </div>
+
+        <div class="col">
+          <p>
+            <strong>Find A Location!</strong>
+          </p>
+          <ul>
+            <li><a href="#"></a>North Seattle</li>
+            <li><a href="#"></a>Burien</li>
+            <li><a href="#"></a>W. Seattle</li>
+            <li><a href="#"></a>Boulevard Park</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+  <!--FOOTER-->
+
+
 
   <script type="module" src="./javascripts/main.js"></script>
 </body>
